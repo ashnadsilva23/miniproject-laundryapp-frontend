@@ -1,14 +1,14 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AddUser from './components/AddUser';
 import LoginUser from './components/LoginUser';
-import LoginAdmin from './components/LoginAdmin';
+import AdminLogin from './components/AdminLogin';
 
 function App() {
   return (
     <div>
       <BrowserRouter>
       <Routes>
-        <Route path='/' element={<LoginAdmin/>}/>
+        <Route path='/' element={<AdminLogin/>}/>
         <Route path='/adduser' element={<AddUser/>}/>
         <Route path='/userlogin' element={<LoginUser/>}/>
       </Routes>

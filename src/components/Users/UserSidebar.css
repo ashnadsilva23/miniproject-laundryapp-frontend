@@ -1,0 +1,84 @@
+/* Main container for sidebar */
+.main-sidebar {
+    width: 190px;
+    background-color: #0c0c0c;
+    color: white;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  /* Profile Section */
+  .profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust this as needed */
+  }
+  
+  .profile-avatar {
+    width: 50px; /* Adjust size as necessary */
+    height: 50px; /* Ensure consistent height */
+    border-radius: 50%; /* Make it circular */
+    margin-right: 10px; /* Space between avatar and text */
+  }
+  
+  .profile-info h4 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  /* Sidebar links */
+  .sidebar {
+    padding: 0; /* Remove padding to reduce space */
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    display: block;
+    padding: 10px 0; /* Vertical padding */
+    margin: 0; /* Remove margin to eliminate gaps */
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    background-color: #888c91;
+    padding-left: 10px; /* Can keep this for hover effect */
+  }
+  
+  /* Dropdown container */
+  .dropdown-container {
+    position: relative;
+  }
+  
+  /* Dropdown button styles */
+  .dropdown-btn {
+    cursor: pointer;
+  }
+  
+  /* Dropdown content styles */
+  .dropdown-content {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    background-color: #070707; /* Background for dropdown */
+  }
+  
+  .dropdown-content li {
+    padding: 8px 0; /* Space between items */
+    margin: 0; /* Remove margin to eliminate gaps */
+  }
+  
+  .dropdown-content li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Hover effect on dropdown */
+  .dropdown-btn:hover + .dropdown-content,
+  .dropdown-content:hover {
+    display: block;
+  }
+  

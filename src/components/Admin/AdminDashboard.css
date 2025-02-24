@@ -1,0 +1,92 @@
+.admin-dashboard {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2791e8;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar .admin-name {
+    margin-right: 20px;
+}
+
+.logout-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.dashboard-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #d8f3dc; /* Soft Green */
+}
+
+
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow wrapping */
+    margin-top: 20px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 20%; /* Adjust card width */
+    margin: 10px; /* Add margin for spacing */
+    min-width: 200px; /* Minimum width to prevent too narrow cards */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem; /* Decrease header font size */
+}
+
+.card p {
+    font-size: 1.2rem; /* Decrease paragraph font size */
+    margin-bottom: 10px;
+}
+
+.card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+}
